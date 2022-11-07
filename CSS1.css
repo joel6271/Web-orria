@@ -1,0 +1,142 @@
+#navbar {
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: fit-content;
+}
+.ul0 {
+    list-style-type: none;
+    width:100%;
+    left: 0;
+    margin:0;
+    top:70px;
+    position: fixed;
+    background-color: black;
+    color:blue;
+}
+li:last-child {
+    border-right: none;
+}
+li {
+    float:left;
+}
+li a{
+    display:block;
+    text-align: center;
+    padding:16px 20px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: white;
+    color:black;
+}
+.active {
+    background-color: white;
+    
+}
+
+#main{
+    margin-top: 0px;
+}
+
+
+.titulua {
+    position: relative;
+    top:150;
+    left: 30px;
+}
+.ul1 {
+    list-style-type: disc;
+    position: relative;
+    top:150;
+    left:40;
+    background-color:transparent;
+    color: black;
+}
+.li {
+    float: none;
+    font-size: larger;
+}
+.p1 {
+    position: relative;
+    top:-340;
+    left: 300px;
+}
+.p2 {
+    position: relative;
+    top:-205;
+    left: 300px;
+}
+.p3 {
+    position: relative;
+    top:-65;
+    left: 300px;
+}
+.p4 {
+    position: relative;
+    top:160;
+    font-size: larger;
+}
+#div1 {
+    position: relative;
+    top:150;
+    left: 22%;
+    width: 60%;
+    padding:10;
+    background-color: black;
+    color: white;
+
+}
+#div2 {
+    position: relative;
+    top:150;
+    left: 0%;
+    width: 25%;
+    padding: 10;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+#div3 {
+    position: relative;
+    top:80;
+    left: 35%;
+    width: 25%;
+    padding: 10;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+#div4 {
+    position: relative;
+    top:10;
+    left:72%;
+    width: 25%;
+    padding: 10;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+#div5 {
+    position: relative;
+    top:150;
+    left: 10%;
+    width: 25%;
+    padding: 10;
+    background-color: green;
+    color:black;
+    text-align: center;
+}
+#div6 {
+    position: relative;
+    top: 110;
+    left:60%;
+    width: 25%;
+    padding: 10;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
